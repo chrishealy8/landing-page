@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+body > div {
+    padding: 20px 150px;
+}
+
 button {
     background-color: #3882F6;
     color: #E5E7EB;
@@ -43,18 +47,17 @@ button {
 
 .header-link {
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .hero-left {
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .hero-left > * {
@@ -62,17 +65,51 @@ button {
 }
 
 .hero-right {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .hero h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .hero p {
     color: #E5E7EB;
-    font-size: 18px;
-    font-weight: normal;
+    font-size: 16px;
+}
+
+.main-info > * {
+    margin: 40px 0;
+}
+
+.main-info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.thumbnail-item {
+    width: 22%;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnail-item img {
+    border: #3882F6 3px solid;
+    border-radius: 13px;
+}
+
+.thumbnail-item p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
 }
 
