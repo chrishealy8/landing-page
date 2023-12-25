@@ -8,12 +8,12 @@ body {
 }
 
 body > div {
-    padding: 20px 200px;
+    padding: 20px 20%;
 }
 
 button {
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-weight: bold;
     width: 100px;
     height: 2rem;
@@ -25,7 +25,7 @@ button {
     background-color: #1F2937;
     color: #F9FAF8;
     margin: 0;
-    padding: 20px 150px 60px 150px;
+    padding: 20px 15% 60px 15%;
 }
 
 .header {
@@ -133,4 +133,36 @@ button {
     font-size: 20px;
     font-weight: 900;
     text-align: right;
+}
+
+.main-cta {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cta-content {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #3882F6 3px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+.cta-content * {
+    margin: 0;
+}
+
+.cta-content button {
+    border: #F9FAF8 1px solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px 15%;
+    font-size: 16px;
+    text-align: center;
 }
