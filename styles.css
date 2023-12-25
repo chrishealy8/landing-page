@@ -8,7 +8,7 @@ body {
 }
 
 body > div {
-    padding: 20px 150px;
+    padding: 20px 200px;
 }
 
 button {
@@ -96,7 +96,7 @@ button {
 
 .thumbnail-item {
     width: 22%;
-    min-width: 160px;
+    min-width: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,3 +113,24 @@ button {
     margin-top: 5px;
 }
 
+.main-quote {
+    background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.main-quote p {
+    margin: 0;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.attribution {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: right;
+}
